@@ -23,7 +23,7 @@ const Sidebar = () => {
   return (
 
  
-    <aside className={`  ${iscollapsed ? 'sideBarAnimation items-center' : 'sideBarAnimationR items-start'} bg-white drop-shadow-lg lg:w-[200px] lg:h-[100vh]  lg:fixed    text-slate-500  flex flex-col  items-center  relative dark:bg-slate-700 dark:text-white`}>
+    <aside className={`  ${iscollapsed ? 'sideBarAnimation items-center' : 'sideBarAnimationR items-start'} bg-white drop-shadow-lg lg:w-[200px] lg:h-[100vh]  lg:fixed   font-semibold  text-slate-500  flex flex-col  items-center  relative dark:bg-slate-700 dark:text-white`}>
 
 
       <div className='absolute top-2 right-2 text-lg z-[2] cursor-pointer' onClick={() => setIsCollapsed(!iscollapsed)}>

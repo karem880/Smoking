@@ -7,7 +7,7 @@ function Home() {
     <>
       <div className="container mx-auto p-0 md:px-0 px-0 py-12 " dir='rtl'>
         <div className="flex flex-col-reverse md:flex-row items-center justify-center h-[100vh]">
-          <div className="w-[90%] mx-auto md:w-[60%] flex flex-col items-center md:items-center md:justify-center md:gap-10 mb-8 md:mb-0 text-gray-800 ">
+          <div className="w-[90%] mx-auto md:w-[60%] flex flex-col items-center md:items-center md:justify-center md:gap-10 mb-8 md:mb-0 text-slate-600 font-medium ">
             <h1 className="text-3xl animationt md:text-5xl font-extrabold  mb-4 mt-6 w-full text-center md:text-start text-slate-700">
 مرحبا بكم في موقعنا!!
             </h1>
@@ -35,7 +35,7 @@ function Home() {
 </ul>
 
 
-            <div className="flex flex-col md:flex-row mt-4 w-full">
+            <div className="flex flex-col md:flex-row mt-4 gap-5 mb-20 w-full">
               <Link
                 to="/explore"
                 className="bg-blue-500 animationb text-white px-6 py-3 rounded-full w-[70%] mx-auto md:w-[40%] flex items-center justify-center  mb-4 md:mr-4 md:mb-0 hover:bg-blue-600 transition duration-300"
@@ -58,6 +58,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className='mt-[150px] md:mt-0'></div>
     </>
   );
 }
