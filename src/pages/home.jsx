@@ -51,7 +51,7 @@ function Home() {
           </div>
           <div className="w-full mt-96 md:mt-0 md:w-1/2">
             <img
-              src="../../public/assets/hero.png"
+              src="./assets/hero.png"
               className="w-full animationl rounded-lg"
               alt=""
             />

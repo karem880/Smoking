@@ -34,7 +34,7 @@ const Sidebar = () => {
 
         <div className=" flex flex-col  items-center justify-center   m-auto  lg:w-full w-max bg-white   overflow-hidden   dark:bg-slate-700 dark:text-white mt-5">
           <div className="flex   justify-center lg:mt-4 border-2 border-main m-auto rounded-full  h-16 w-16 overflow-hidden ">
-          <img src='../../../public/assets/logo.png' className={` ${iscollapsed ? 'lg:text-3xl text-lg' : 'lg:text-6xl text-xl'} text-gray-200   w-full h-full`} />
+          <img src='./assets/logo.png' className={` ${iscollapsed ? 'lg:text-3xl text-lg' : 'lg:text-6xl text-xl'} text-gray-200   w-full h-full`} />
         </div>
         <h1 className='font-black mt-5'>hospital</h1>
       
