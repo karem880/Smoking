@@ -1,0 +1,85 @@
+.animationl {
+  animation: 2s 1 ll;
+}
+
+@keyframes ll {
+  0% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.animationr {
+    animation: 2s 1 rr;
+  }
+  
+  @keyframes rr {
+    0% {
+      transform: translateX(300px);
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+
+.animationt {
+  animation: 2s 1 tt;
+}
+
+@keyframes tt {
+  0% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+.animationb {
+    animation: 2s 1 bb;
+  }
+  
+  @keyframes bb {
+    0% {
+      transform: translateY(300px);
+      opacity: 0;
+    }
+    25% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }

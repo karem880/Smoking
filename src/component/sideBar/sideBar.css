@@ -1,0 +1,78 @@
+
+
+.active{
+  background: #0077ff;
+  color: white;
+}
+
+
+.sideBarAnimation{
+  animation: sideBarAnimation .3s forwards ;
+}
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+  
+@keyframes sideBarAnimation {
+  0%{
+    width: 200px;
+  }
+  100%{
+    width: 80px;
+  }
+  
+}
+.sideBarAnimationR{
+  animation: sideBarAnimationR .3s forwards ;
+}
+@keyframes sideBarAnimationR {
+  0% {
+    width: 80px;
+  }
+  100% {
+    width: 200px;
+  }
+}
+
+
+
+}
+/* Adjust animation for screens with a maximum width of 768px */
+/* @media (max-width: 900px) {
+  
+.sideBarAnimation{ 
+  animation: sideBarAnimation .3s forwards ;
+}
+
+  
+@keyframes sideBarAnimation {
+  0%{
+    height: 180px;
+  }
+  100%{
+    height: 50px;
+  }
+  
+}
+
+.sideBarAnimationR{
+  width: 100%;
+  animation: sideBarAnimationR .3s forwards ;
+}
+
+  
+@keyframes sideBarAnimationR {
+  0% {
+    height:  50px;
+  }
+  100% {
+    height:  180px;
+  }
+}
+
+} */
