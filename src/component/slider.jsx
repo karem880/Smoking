@@ -17,25 +17,25 @@ const CustomSlider = () => {
 
   const slideContent = [
     {
-      image: "../../public/assets/hos2.jpg",
+      image: "./assets/hos2.jpg",
       caption: "جو دافئ ومريح للمرضى",
       buttonText: "Learn More",
       link: "/hospital1",
     },
     {
-      image: "../../public/assets/hos1.jpg",
+      image: "./assets/hos1.jpg",
       caption: "مستشفى نظيف ومرتب",
       buttonText: "Explore",
       link: "/hospital2",
     },
     {
-      image: "../../public/assets/hos3.jpg",
+      image: "./assets/hos3.jpg",
       caption: "تجهيزات طبية حديثة وفريق طبي متخصص",
       buttonText: "Discover",
       link: "/hospital3",
     },
     {
-      image: "../../public/assets/stuf.jpg",
+      image: "./assets/stuf.jpg",
       caption: "طاقم طبي متعاون",
       buttonText: "Visit Now",
       link: "/hospital4",

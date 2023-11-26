@@ -15,7 +15,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos2.jpg"
+      img:"./assets/hos2.jpg"
     },
     {
         id:2,
@@ -23,7 +23,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos1.jpg"
+      img:"./assets/hos1.jpg"
     },
     {
         id:3,
@@ -31,7 +31,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos3.jpg"
+      img:"./assets/hos3.jpg"
     },
     {
         id:4,
@@ -39,7 +39,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos2.jpg"
+      img:"./assets/hos2.jpg"
     },
     {
         id:5,
@@ -47,7 +47,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos1.jpg"
+      img:"./assets/hos1.jpg"
     },
     {
         id:6,
@@ -55,7 +55,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos3.jpg"
+      img:"./assets/hos3.jpg"
     },
     {
         id:7,
@@ -63,7 +63,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos2.jpg"
+      img:"./assets/hos2.jpg"
     },
     {
         id:8,
@@ -71,7 +71,7 @@ function Hospital() {
       location: 'القاهرة، مصر',
       mindescription: 'مصحة متخصصة في علاج إدمان المخدرات والكحول.',
       maxdesc:"egffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
-      img:"../../public/assets/hos1.jpg"
+      img:"./assets/hos1.jpg"
     },
 
     
