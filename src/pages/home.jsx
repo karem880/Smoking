@@ -37,7 +37,7 @@ function Home() {
 
             <div className="flex flex-col md:flex-row mt-4 gap-5 mb-20 w-full">
               <Link
-                to="/explore"
+                to="/hospital"
                 className="bg-blue-500 animationb text-white px-6 py-3 rounded-full w-[70%] mx-auto md:w-[40%] flex items-center justify-center  mb-4 md:mr-4 md:mb-0 hover:bg-blue-600 transition duration-300"
               >
 استكشف المصحات

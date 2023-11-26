@@ -13,7 +13,7 @@ function App() {
           {/* Nested routes under "/main" */}
           <Route path="/" element={<Home />} />
           <Route path="hospital" element={<Hospital />} />
-          {/* Add more nested routes as needed */}
+
         </Route>
 
         <Route path="*" element={<NotFound />} />
