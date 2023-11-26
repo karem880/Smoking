@@ -151,7 +151,7 @@ function Hospital() {
             <p className="text-sm text-gray-700 mb-4">   {item.mindescription}  </p>
             <div className="flex justify-center gap-5 w-full" >
            
-              <a href="#contact" className="bg-blue-500 text-white px-4 py-2 w-[80%] rounded-tl-none rounded-tr-2xl rounded-br-none rounded-bl-2xl flex items-center justify-center hover:bg-green-600 transition duration-300">
+              <a href="#contact" className="bg-blue-500 text-white px-4 py-2 w-[80%] rounded-tl-none rounded-tr-2xl rounded-br-none rounded-bl-2xl flex items-center justify-center hover:bg-blue-600 transition duration-300">
                 تواصل
               </a>
             </div>
