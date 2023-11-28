@@ -46,7 +46,7 @@ const Sidebar = () => {
       <main className={`  ${iscollapsed ?  '' : 'flex-col h-max' }  items-start lg:mt-10 my-3 uppercase flex lg:flex-col  h-full  gap-y-8 p-2`}>
         <MenuItem to={"/"} icon={<AiFillHome  />} title={"الرئيسية "} iscollapsed={iscollapsed} />
         <MenuItem to={"hospital"} icon={<IoIosMedkit  />} title={"المصحات"} iscollapsed={iscollapsed} />
-        <MenuItem to={"/main/timeline"} icon={<AiOutlineQuestion  />} title={"اعرف اكثر"} iscollapsed={iscollapsed} />
+        <MenuItem to={"quistions"} icon={<AiOutlineQuestion  />} title={"اعرف اكثر"} iscollapsed={iscollapsed} />
 
         <MenuItem to={"/a"} icon={<AiFillPhone />} title={" الخط الساخن"} iscollapsed={iscollapsed} />
 

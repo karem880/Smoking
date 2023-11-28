@@ -43,7 +43,7 @@ function Home() {
 استكشف المصحات
               </Link>
               <Link
-                to="/learn-more"
+                to="quistions"
                 className="bg-gray-700 animationb text-white px-6 py-3 rounded-full w-[70%] mx-auto md:w-[40%] flex items-center justify-center hover:bg-gray-800 transition duration-300"
               >
 اعرف اكثر!              </Link>

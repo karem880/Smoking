@@ -4,6 +4,7 @@ import "./index.css";
 import Main from "./pages/main/main";
 import NotFound from './pages/NotFound';
 import Hospital from "./pages/Hospital";
+import Quistions from "./pages/quistions";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           {/* Nested routes under "/main" */}
           <Route path="/" element={<Home />} />
           <Route path="hospital" element={<Hospital />} />
+          <Route path="quistions" element={<Quistions />} />
 
         </Route>
 
