@@ -5,11 +5,9 @@ import { CiViewTimeline } from 'react-icons/ci';
 import { RxDashboard } from 'react-icons/rx';
 import { useState,useEffect } from 'react';
 import "./sideBar.css"
-import { AiOutlinePlus, AiOutlineMinus, AiOutlineInfoCircle ,AiFillHome,AiOutlineQuestion,AiFillPhone} from 'react-icons/ai';
-import { FaUserCircle } from 'react-icons/fa';
+import { AiOutlinePlus, AiOutlineMinus, AiOutlineInfoCircle ,AiFillHome,AiOutlineQuestion } from 'react-icons/ai';
+import {  FaShieldAlt } from 'react-icons/fa';
 import { IoIosMedkit } from 'react-icons/io';
-
-import axios from 'axios';
 
 
 const Sidebar = () => {
@@ -48,7 +46,7 @@ const Sidebar = () => {
         <MenuItem to={"hospital"} icon={<IoIosMedkit  />} title={"المصحات"} iscollapsed={iscollapsed} />
         <MenuItem to={"quistions"} icon={<AiOutlineQuestion  />} title={"اعرف اكثر"} iscollapsed={iscollapsed} />
 
-        <MenuItem to={"/a"} icon={<AiFillPhone />} title={" الخط الساخن"} iscollapsed={iscollapsed} />
+        <MenuItem to={"advice"} icon={<FaShieldAlt />} title={"  الوقاية"} iscollapsed={iscollapsed} />
 
 
         <MenuItem to={"/main/settings"} icon={<FiUser   />} title={"المطور"} iscollapsed={iscollapsed} />

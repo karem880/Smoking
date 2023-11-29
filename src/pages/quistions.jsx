@@ -427,27 +427,18 @@ function Quistions() {
                         {/*/ Post Content*/}
                     </div>
                     {/*Subscribe*/}
-                    <div className="container font-sans bg-green-100 rounded mt-8 p-4 md:p-24 text-center" dir="rtl">
+                    <div className="container font-sans bg-green-100 rounded mt-8 p-4 md:p-24 text-center" dir="ltr">
                         <h2 className="font-bold  text-2xl md:text-4xl mb-5">
 ارسال رساله لصاحب الموقع او دعمه
                         </h2>
                         <h3 className="font-bold break-normal font-normal text-gray-600 text-base md:text-xl">
 قم بادخال رسالتك هنا                        </h3>
-                        <div className="w-full text-center pt-4">
-                            <form action="#">
-                                <div className="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
-                                    <input
-                                        type="email"
-                                        placeholder="ادخل رسالتك"
-                                        className="flex-1 appearance-none rounded shadow p-3 text-gray-600 mr-2 focus:outline-none"
-                                    />
-                                    <button
-                                        type="submit"
-                                        className="flex-1 mt-4 md:mt-0 block md:inline-block appearance-none bg-green-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-green-400"
-                                    >
-                                        ارسال
-                                    </button>
-                                </div>
+                        <div className="w-full text-center pt-4 h-[46px]">
+                            <form action="# " className="flex item-center justify-center gap-2 mx-auto w-full md:w-[50%]">
+
+                                <input type="text" className="bg-white border-gray-300 rounded-lg  p-3 h-[50px] outline-none w-[70%]" placeholder="ادخل رسالتك هنا" />
+<button className="bg-green-500 text-white border-gray-300 rounded-lg p-3 h-[50px] w-[20%]">ارسال</button>
+                              
                             </form>
                         </div>
                     </div>
@@ -491,7 +482,7 @@ Hospital.com                                </a>
                                 className="text-gray-900 no-underline hover:text-gray-900 hover:no-underline"
                                 href="#"
                             >
-                                👻{" "}
+                                {" "}
                                 <span className="text-base text-gray-200"> Hospital</span>
                             </a>
                         </div>
