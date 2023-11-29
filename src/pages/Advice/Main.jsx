@@ -161,6 +161,24 @@ export default function Main() {
 
 </div>
 
+
+
+<div className="container font-sans bg-[#2f5b5b] rounded mt-8 p-4 md:p-24 text-center mx-auto" dir="ltr">
+                        <h2 className="font-bold  text-white text-2xl md:text-4xl mb-5">
+ارسال رساله لصاحب الموقع او دعمه
+                        </h2>
+                        <h3 className="font-bold break-normal  text-white text-base md:text-xl">
+قم بادخال رسالتك هنا                        </h3>
+                        <div className="w-full text-center pt-4 h-[46px]">
+                            <form action="# " className="flex item-center justify-center gap-2 mx-auto w-full md:w-[50%]">
+
+                                <input type="text" className="bg-white border-gray-300 rounded-lg  p-3 h-[50px] outline-none w-[70%]" placeholder="ادخل رسالتك هنا" />
+<button className="bg-green-500 text-white border-gray-300 rounded-lg p-3 h-[50px] w-[20%]">ارسال</button>
+                              
+                            </form>
+                        </div>
+                    </div>
+
     </section>
   );
 }
