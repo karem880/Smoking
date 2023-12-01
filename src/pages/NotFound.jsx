@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import './Notfond.css';
-
+// لو دخلنا صفحه مش موجوده
 
 function NotFound() {
     return (

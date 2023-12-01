@@ -1,78 +1,66 @@
-
-
-.active{
+/* تحديد أسلوب العناصر النشطة في الشريط الجانبي */
+.active {
   background: #0077ff;
   color: white;
 }
 
-
-.sideBarAnimation{
-  animation: sideBarAnimation .3s forwards ;
+/* تعريف تأثير الانهيار للشريط الجانبي */
+.sideBarAnimation {
+  animation: sideBarAnimation .3s forwards;
 }
 
-
-
-
-
-
-
-@media (min-width: 1200px){
-  
-@keyframes sideBarAnimation {
-  0%{
-    width: 200px;
+/* تعريف تأثير الانهيار للشريط الجانبي للشاشات الكبيرة (أكبر من 1200 بكسل) */
+@media (min-width: 1200px) {
+  @keyframes sideBarAnimation {
+    0% {
+      width: 200px;
+    }
+    100% {
+      width: 80px;
+    }
   }
-  100%{
-    width: 80px;
+
+  /* تعريف تأثير الفتح للشريط الجانبي للشاشات الكبيرة */
+  .sideBarAnimationR {
+    animation: sideBarAnimationR .3s forwards;
   }
-  
-}
-.sideBarAnimationR{
-  animation: sideBarAnimationR .3s forwards ;
-}
-@keyframes sideBarAnimationR {
-  0% {
-    width: 80px;
-  }
-  100% {
-    width: 200px;
+
+  @keyframes sideBarAnimationR {
+    0% {
+      width: 80px;
+    }
+    100% {
+      width: 200px;
+    }
   }
 }
 
-
-
-}
-/* Adjust animation for screens with a maximum width of 768px */
+/* تعديل التأثيرات للشاشات الصغيرة (أقل من 1200 بكسل) */
 /* @media (max-width: 900px) {
-  
-.sideBarAnimation{ 
-  animation: sideBarAnimation .3s forwards ;
-}
-
-  
-@keyframes sideBarAnimation {
-  0%{
-    height: 180px;
+  .sideBarAnimation { 
+    animation: sideBarAnimation .3s forwards ;
   }
-  100%{
-    height: 50px;
-  }
-  
-}
 
-.sideBarAnimationR{
-  width: 100%;
-  animation: sideBarAnimationR .3s forwards ;
-}
-
-  
-@keyframes sideBarAnimationR {
-  0% {
-    height:  50px;
+  @keyframes sideBarAnimation {
+    0%{
+      height: 180px;
+    }
+    100%{
+      height: 50px;
+    }
   }
-  100% {
-    height:  180px;
-  }
-}
 
+  .sideBarAnimationR {
+    width: 100%;
+    animation: sideBarAnimationR .3s forwards ;
+  }
+
+  @keyframes sideBarAnimationR {
+    0% {
+      height: 50px;
+    }
+    100% {
+      height: 180px;
+    }
+  }
 } */
